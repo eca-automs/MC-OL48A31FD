@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
--0.5
+10000000000
  20
-0.1499999999999773
+10000000000
  30
 0
   9
 $EXTMAX
  10
-419.5829921259842
+-10000000000
  20
-297.25
+-10000000000
  30
 0
   9
@@ -1117,7 +1117,7 @@ AcDbViewportTableRecord
  12
 232.5818343195266
  22
-150.3079881656805
+150.4837869822485
  13
 0
  23
@@ -2751,7 +2751,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D4
+*D6
  70
     0
 280
@@ -2769,7 +2769,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D6
+*D4
  70
     0
 280
@@ -2805,7 +2805,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D2
+*D1
  70
     0
 280
@@ -2823,7 +2823,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D1
+*D2
  70
     0
 280
@@ -3449,7 +3449,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-*D4
+*D6
  70
     1
  10
@@ -3457,113 +3457,13 @@ AcDbBlockBegin
  20
 0
   3
-*D4
+*D6
   1
 
   0
 LINE
   5
 BB
-100
-AcDbEntity
-  8
-schematic
-  6
-CONTINUOUS
- 62
-    7
-370
-    0
-100
-AcDbLine
- 10
-242.2324311023625
- 20
-255.8014074803154
- 11
-242.5003937007876
- 21
-250.9780807086618
-  0
-SOLID
-  5
-BC
-100
-AcDbEntity
-  8
-schematic
-  6
-CONTINUOUS
- 62
-    7
-370
-    0
-100
-AcDbTrace
- 10
-242.2324311023625
- 20
-255.8014074803154
- 30
-0
- 11
-242.7867498778526
- 21
-253.3283479154371
- 31
-0
- 12
-241.9554624249849
- 22
-253.2821652791667
- 32
-0
- 13
-241.9554624249849
- 23
-253.2821652791667
- 33
-0
-  0
-ENDBLK
-  5
-57
-330
-55
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockEnd
-  0
-BLOCK
-  5
-59
-330
-58
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockBegin
-  2
-*D6
- 70
-    1
- 10
-0
- 20
-0
-  3
-*D6
-  1
-
-  0
-LINE
-  5
-BD
 100
 AcDbEntity
   8
@@ -3587,7 +3487,7 @@ AcDbLine
   0
 SOLID
   5
-BE
+BC
 100
 AcDbEntity
   8
@@ -3622,6 +3522,106 @@ AcDbTrace
 125.7838088816778
  23
 235.0021652791666
+ 33
+0
+  0
+ENDBLK
+  5
+57
+330
+55
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+59
+330
+58
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+*D4
+ 70
+    1
+ 10
+0
+ 20
+0
+  3
+*D4
+  1
+
+  0
+LINE
+  5
+BD
+100
+AcDbEntity
+  8
+schematic
+  6
+CONTINUOUS
+ 62
+    7
+370
+    0
+100
+AcDbLine
+ 10
+242.2324311023625
+ 20
+255.8014074803154
+ 11
+242.5003937007876
+ 21
+250.9780807086618
+  0
+SOLID
+  5
+BE
+100
+AcDbEntity
+  8
+schematic
+  6
+CONTINUOUS
+ 62
+    7
+370
+    0
+100
+AcDbTrace
+ 10
+242.2324311023625
+ 20
+255.8014074803154
+ 30
+0
+ 11
+242.7867498778526
+ 21
+253.3283479154371
+ 31
+0
+ 12
+241.9554624249849
+ 22
+253.2821652791667
+ 32
+0
+ 13
+241.9554624249849
+ 23
+253.2821652791667
  33
 0
   0
@@ -3749,6 +3749,42 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
+*D1
+ 70
+    1
+ 10
+0
+ 20
+0
+  3
+*D1
+  1
+
+  0
+ENDBLK
+  5
+60
+330
+5E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+62
+330
+61
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
 *D2
  70
     1
@@ -3824,42 +3860,6 @@ AcDbTrace
 243.2821652791666
  33
 0
-  0
-ENDBLK
-  5
-60
-330
-5E
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockEnd
-  0
-BLOCK
-  5
-62
-330
-61
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockBegin
-  2
-*D1
- 70
-    1
- 10
-0
- 20
-0
-  3
-*D1
-  1
-
   0
 ENDBLK
   5
@@ -41837,7 +41837,7 @@ AcDbMText
  72
     1
   1
-Schema: MC-OL48A31FD\PAutore: Belardi\PFoglio: 9 di 17
+Schema: MC-OL48A31FD\PFoglio: 9 di 17
   7
 standard
 210
